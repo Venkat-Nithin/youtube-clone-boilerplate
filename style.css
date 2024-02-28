@@ -77,8 +77,35 @@ body {
   .navigation__options {
     margin-top: 16px;
   }
-  
+
+  .navigation__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .navigation__button {
+    padding: 5px;
+  }
+
+  .navigation__menu__button svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .navigation__menu__button img {
+    width: 120px; /* Adjust according to your needs */
+  }
+
+  .chips {
+    margin-top: 56px;
+  }
+
   .sidebar {
-    display: none;
+    display: block;
+    top: 56px;
+    height: calc(100vh - 56px);
   }
 }
